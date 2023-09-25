@@ -1,0 +1,63 @@
+#tile {
+    width: 18%;
+    user-select: none;
+    cursor: pointer;
+}
+
+#tile-cont {
+    width: 22%;
+    margin: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+#tile-cont .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+#tile-cont .genre {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#poster {
+    position: relative;
+}
+
+#poster span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    padding: 5px 8px;
+    margin: 0;
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.tileposter {
+    height: 360px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #222222;
+    margin-top: 1rem;
+}
+
+.genre {
+    color: #666666;
+    font-size: 16px;
+}
+
+.star-icon {
+    color: #de334d;
+}

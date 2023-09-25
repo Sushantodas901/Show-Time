@@ -1,0 +1,21 @@
+#RecommendedMovies {
+    margin-top: 3rem;
+    padding: 10px 8rem;
+}
+
+.tilescontainer-head {
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.tilescontainer-head h6 {
+    color: #f84464;
+    cursor: pointer;
+}
+
+.tilescontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}

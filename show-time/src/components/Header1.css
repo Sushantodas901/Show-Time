@@ -1,0 +1,72 @@
+#main-header {
+    background-color: #333545;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 8rem;
+    height: 54px;
+    user-select: none;
+}
+
+#main-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.show-time-logo {
+    width: 170px;
+    cursor: pointer;
+}
+
+.main-search-box {
+    width: 430px;
+    font-size: 14px;
+    padding: 9px 45px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+}
+
+.search-icon {
+    color: #696969;
+    transform: translateX(40px);
+}
+
+#main-header-right {
+    display: flex;
+    align-items: center;
+}
+
+.city-btn {
+    background-color: transparent;
+    color: #cccccc;
+    border: none;
+    font-size: 14px;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.city-btn:hover {
+    color: white;
+}
+
+.icondown {
+    margin-bottom: 3px;
+}
+
+.signin-btn {
+    background-color: #f84464;
+    color: #fff;
+    border: none;
+    transition: all 200ms;
+    outline: none;
+    border-radius: 4px;
+    padding: 4px 12px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.icon-menu {
+    font-size: 20px;
+    cursor: pointer;
+}

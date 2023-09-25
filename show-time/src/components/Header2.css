@@ -1,0 +1,19 @@
+#header2 {
+    display: flex;
+    align-items: center;
+    background-color: #222539;
+    padding: 10px 8rem;
+    user-select: none;
+}
+
+#header2 a {
+    text-decoration: none;
+    color: #cccccc;
+    transition: all 200ms;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+#header2 a:hover {
+    color: white;
+}

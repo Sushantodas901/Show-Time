@@ -1,0 +1,123 @@
+#particular-event {
+    margin: 0 12rem;
+    user-select: none;
+}
+
+#event-mainposter {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#main-poster-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    filter: blur(8px) brightness(75%);
+    transform: scale(1.2);
+}
+
+#main-poster-back img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainposter {
+    width: 80%;
+    z-index: 9;
+}
+
+#event-header {
+    background-color: #fff;
+    padding: 0 1rem;
+}
+
+.event-title {
+    padding: 0.7rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    padding-bottom: 0;
+}
+
+.booking-btn {
+    background-color: #f84464;
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.event-title-main {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.event-title-sub {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+}
+
+.event-sub-title {
+    display: flex;
+    padding: 0.7rem 1rem;
+    font-weight: 500;
+    padding-top: 0;
+    color: #222222;
+}
+
+.event-gap {
+    margin: 0 1rem;
+    color: #c7c8c9;
+}
+
+.location-icon-color {
+    color: #fec700;
+    font-size: 1.4rem;
+}
+
+#event-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.event-body-cast {
+    width: 26%;
+    background-color: #fff;
+    height: min-content;
+}
+
+.event-body-about {
+    height: min-content;
+    background-color: #fff;
+    width: 72%;
+    padding: 2rem;
+}
+
+.event-abt-head {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.event-abt {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.event-body-cast {
+    padding: 2rem;
+}

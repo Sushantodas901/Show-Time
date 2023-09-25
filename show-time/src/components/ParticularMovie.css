@@ -1,0 +1,77 @@
+#movie-cover {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 2rem 8rem;
+    color: white;
+    user-select: none;
+    background-size: 100% 100%;
+}
+
+.movie-cover-left {
+    width: 250px;
+    margin-right: 2rem;
+}
+
+.movie-cover-left img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie-cover-right h2 {
+    margin-bottom: 1rem;
+}
+
+.star-icon-color {
+    color: #f07584;
+}
+
+.screentype-language {
+    background-color: #e5e5e5;
+    color: black;
+    width: fit-content;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+
+}
+
+.runtime {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+#booking-btn {
+    margin-top: 1rem;
+    background-color: #f84464;
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about-section {
+    padding: 2.5rem 8rem;
+    color: black;
+    user-select: none;
+}
+
+.about-section p {
+    width: 75%;
+    font-size: 17px;
+    padding: 0.5rem 0;
+}
+
+.cast-section {
+    user-select: none;
+    padding: 0rem 8rem;
+}
+
+.reviews-section {
+    user-select: none;
+    padding: 2.5rem 8rem;
+}

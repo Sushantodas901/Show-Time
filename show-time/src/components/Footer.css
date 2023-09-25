@@ -1,0 +1,29 @@
+#footer {
+    background-color: #313035;
+    color: aliceblue;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.footer-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 150px;
+    margin: 0 1rem;
+    user-select: none;
+}
+
+.footer-logo-line {
+    border-top: 0.01rem solid #5d5d5f;
+    width: 100%;
+}
+
+.lower-footer {
+    text-align: center;
+    user-select: none;
+    color: #666666;
+}
